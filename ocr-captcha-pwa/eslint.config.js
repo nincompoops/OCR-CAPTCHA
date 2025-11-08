@@ -37,5 +37,12 @@ export default defineConfig(
 				svelteConfig
 			}
 		}
+	},
+	{
+		files: ['**/*.cjs'], // 모든 .cjs 파일에 적용
+		rules: {
+			// @typescript-eslint/no-require-imports 규칙을 비활성화합니다.
+			'@typescript-eslint/no-require-imports': 'off'
+		}
 	}
 );
