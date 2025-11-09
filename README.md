@@ -37,7 +37,7 @@
 
 1.  프로젝트 루트로 이동합니다.
     ```sh
-    cd nincompoops/ocr-captcha/OCR-CAPTCHA-e9b8c84364217769a15145a8c8308c2e73deab69/ocr-captcha-pwa
+    cd nincompoops/ocr-captcha/ocr-captcha-pwa
     ```
 
 2.  의존성을 설치합니다.
