@@ -1,14 +1,14 @@
 import tailwindcss from '@tailwindcss/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import { VitePWA} from 'vite-plugin-pwa';
+import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
 	plugins: [tailwindcss(), sveltekit(),
 		VitePWA({
 			registerType: 'autoUpdate',
 			workbox: {
-				globPatterns: ['**/*.{js,css,html,ico,png,svg,wasm}'],
+				globPatterns: ['**/*.{js,css,html,ico,png,svg,wasm, traineddata.gz}'],
 			},
 			manifest: {
 				name: 'OCR Captcha PWA',
